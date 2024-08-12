@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="explore.css">
+    <title>Book Recommendations</title>
+</head>
+<body>
+    <nav id="navi">
+                
+        <ul>
+            <li id="list1"><img src="book-gif.gif" id="books" ></li>
+            <li class="icon" id="icon-1"><img src="home.png"><a id="icon1" href="index.html">Home</a></li>
+            <li class="icon" id="icon-2"><img src="explore.png"><a id="icon2" href="explore.html">Explore</a></li>
+            <li class="icon"><img src="wishlist.png"><a id="icon3" href="wishlist.html">wishlist</a></li>
+            <li class="icon"><img src="history.png"><a id="icon4" href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <h1 id="heading1">Book Recommendations</h1>
+        <div class="catgo">
+            <div class="categories">
+                <button class="category-button" data-category="fiction" id="Fictional Books">Fiction</button>
+                <button class="category-button" data-category="non-fiction" id="Non-Fictional Books">Non-Fiction</button>
+                <button class="category-button" data-category="fantasy" id="Fantasy Books">Fantasy</button>
+                <button class="category-button" data-category="mystery" id="Mystorical Books">Mystery</button>
+                <button class="category-button" data-category="science-fiction" id="Science Fictional Books">Science Fiction</button>
+                <button class="category-button" data-category="Thriller" id="Thriller comics">Thriller</button>
+                <button class="category-button" data-category="Romance" id="Comics of Romance">Romance</button>
+                <button class="category-button" data-category="Horror" id="Horror Comics">Horror</button>
+                <button class="category-button" data-category="Children's Literature" id="Childre's literatures">Children's Literature</button>
+            </div>
+            <div id="recommendations" class="book-container"></div>
+        </div>
+        </div>
+        <footer id="footer">
+            <p> ByteBurst '24<br>
+                &copy; Team Terminants</p>
+        </footer>
+
+    <script defer src="explore.js"></script>
+</body>
+</html>
